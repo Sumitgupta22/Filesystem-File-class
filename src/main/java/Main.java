@@ -9,7 +9,7 @@ class file_handling{
     String Filename = filename;
    try{ File file = new File(Filename);
     if(file.createNewFile()){
-      System.out.println("File created: "+Filename);
+      System.out.println("File created:  "+Filename);
     }
    else{
       System.out.println("File already exists.");
